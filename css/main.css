@@ -15486,7 +15486,9 @@ input.call_to_action__form__item--08 {
   line-height: 1.8
 }
 
-.wf-playfairdisplay-n4-active .cover__description_text--01 {}
+.wf-playfairdisplay-n4-active .cover__description_text--01 {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
 
 .cover__pic_box--01 {
   margin-top: -30px
