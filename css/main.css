@@ -18149,3 +18149,7 @@ a.contacts__item_text--04:hover, a.contacts__item_text--04:active, a.contacts__i
     font-size: 9px
   }
 }
+
+.footer-text {
+  color: white;
+}
