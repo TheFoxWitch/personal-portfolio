@@ -18236,6 +18236,18 @@ button, input, select, textarea {
   margin: 0;
 }
 
+.blurb {
+  position: relative;
+  left: -65%;
+  width: 159px;
+  margin-top: 10px;
+}
+
+.blurb2 {
+  position: relative;
+  margin-top: 10px;
+}
+
 .footer-text {
   position: relative;
   color: white;
