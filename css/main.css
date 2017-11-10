@@ -14,6 +14,7 @@ html {
 
 body {
   margin: 0
+  background-color: #fafafa;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
@@ -15442,7 +15443,6 @@ input.call_to_action__form__item--08 {
 
 .cover--01 {
   overflow: hidden;
-  background-color: #fafafa;
   text-align: center
 }
 
