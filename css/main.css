@@ -18146,8 +18146,32 @@ a.contacts__item_text--04:hover, a.contacts__item_text--04:active, a.contacts__i
   }
 }
 
+#contact {
+  margin: 42% auto 5% auto;
+}
+
+#contact h2 {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.thelynx {
+  display: flex;
+  position: relative;
+  top: 20px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.submitbutt {
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  right: -11px;
+}
+
 .footer-text {
   position: relative;
   color: white;
-  margin: 0 auto;
+  text-align: center;
 }
