@@ -10761,12 +10761,12 @@ input.call_to_action__form__item--08 {
   margin: 0 30px
 }
 
-.testimonials__title--02 {
+.projects-title {
   font-weight: 700;
   margin-bottom: 70px;
   padding: 0 15px;
   color: #242526;
-  font-size: 44px
+  font-size: 24pt;
 }
 
 .wf-montserrat-n7-active .testimonials__title--02 {
