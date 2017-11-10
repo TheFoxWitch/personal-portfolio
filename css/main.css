@@ -13169,10 +13169,6 @@ input.call_to_action__form__item--08 {
   margin: 0 5.5px 10px
 }
 
-.works--01 {
-  background-color: #f6f6f6
-}
-
 .works__item--01 {
   float: left;
   margin-right: 20px;
@@ -18151,5 +18147,7 @@ a.contacts__item_text--04:hover, a.contacts__item_text--04:active, a.contacts__i
 }
 
 .footer-text {
+  position: relative;
   color: white;
+  margin: 0 auto;
 }
