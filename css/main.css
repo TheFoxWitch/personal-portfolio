@@ -18167,7 +18167,6 @@ a.contacts__item_text--04:hover, a.contacts__item_text--04:active, a.contacts__i
   position: relative;
   display: inline-block;
   width: 30%;
-  right: -11px;
 }
 
 /*
@@ -18223,7 +18222,7 @@ textarea[type=textarea] {
   width: 185%;
   margin-bottom: 20px;
   resize: none;
-  border: 1px solid;
+  border: 2px solid;
 }
 
 @media (min-width: 518)and (max-width:599px) {
