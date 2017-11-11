@@ -18170,6 +18170,31 @@ a.contacts__item_text--04:hover, a.contacts__item_text--04:active, a.contacts__i
   right: -11px;
 }
 
+/*
+@media (max-width:651px) {
+  .thelynx {
+    left: -15%;
+  }
+}
+
+@media (max-width:600px) {
+  .thelynx {
+    left: -14%;
+  }
+}
+
+@media (min-width:400px)and (max-width:599px) {
+  .thelynx {
+    left: -5%;
+  }
+}*/
+
+@media (min-width:320)and (max-width:599px) {
+  .thelynx {
+    left: -5%;
+  }
+}
+
 .fa {
   color: #333;
 }
