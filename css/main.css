@@ -18243,13 +18243,13 @@ input[type=text] {
   }
 }
 
-@media (min-width: 518)and (max-width: 599px) {
+@media (min-width: 544px)and (max-width: 599px) {
   .textarea {
     width: 157%;
   }
 }
 
-@media (min-width: 400px)and (max-width: 517px) {
+@media (min-width: 400px)and (max-width: 543px) {
   .textarea {
     width: 152%;
   }
