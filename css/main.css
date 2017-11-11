@@ -18231,6 +18231,18 @@ input[type=text] {
   border: 2px solid;
 }
 
+@media (min-width:543px) {
+  .email {
+    bottom: -5%;
+  }
+}
+
+@media (min-width:543px) {
+  .email-text {
+    bottom: -5%;
+  }
+}
+
 @media (min-width: 518)and (max-width: 599px) {
   .textarea {
     width: 157%;
