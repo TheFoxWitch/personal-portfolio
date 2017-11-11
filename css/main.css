@@ -18218,7 +18218,7 @@ textarea[type=textarea] {
   resize: none;
 }
 
-@@media (min-width: 400px)and (max-width:599px) {
+@media (min-width: 400px)and (max-width:599px) {
   textarea[type=textarea] {
     width: 157%;
   }
