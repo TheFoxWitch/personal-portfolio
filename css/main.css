@@ -18204,6 +18204,11 @@ input[type=text] {
   width: 75%;
   height: 25px;
   margin-right: 17px;
+  border-bottom: 1px solid;
+}
+
+.name {
+  width: 11%;
 }
 
 textarea[type=textarea] {
