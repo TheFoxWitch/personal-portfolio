@@ -18155,6 +18155,11 @@ a.contacts__item_text--04:hover, a.contacts__item_text--04:active, a.contacts__i
   text-align: center;
 }
 
+.lynx-container {
+  position: relative;
+  justify-content: space-around;
+}
+
 .thelynx {
   display: flex;
   position: relative;
@@ -18169,25 +18174,6 @@ a.contacts__item_text--04:hover, a.contacts__item_text--04:active, a.contacts__i
   width: 30%;
 }
 
-/*
-@media (max-width:651px) {
-  .thelynx {
-    left: -15%;
-  }
-}
-
-@media (max-width:600px) {
-  .thelynx {
-    left: -14%;
-  }
-}
-
-@media (min-width:400px)and (max-width:599px) {
-  .thelynx {
-    left: -5%;
-  }
-}*/
-
 @media (min-width:760px)and (max-width:599px) {
   .thelynx {
     right: -5%;
@@ -18196,7 +18182,7 @@ a.contacts__item_text--04:hover, a.contacts__item_text--04:active, a.contacts__i
 
 @media (min-width:320px)and (max-width:599px) {
   .thelynx {
-    left: -5%;
+    right: -3%;
   }
 }
 
@@ -18246,7 +18232,6 @@ input[type=text] {
   }
 }
 
-/*
 @media (min-width: 544px)and (max-width: 599px) {
   .textarea {
     width: 157%;
@@ -18257,7 +18242,7 @@ input[type=text] {
   .textarea {
     width: 152%;
   }
-}*/
+}
 
 button, input, select, textarea {
   margin: 0;
