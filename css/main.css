@@ -18238,6 +18238,7 @@ button, input, select, textarea {
 .blurb2 {
   position: relative;
   margin-top: 10px;
+  left: -2px;
 }
 
 .blurb3 {
