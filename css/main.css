@@ -18216,6 +18216,7 @@ textarea[type=textarea] {
   width: 185%;
   margin-bottom: 20px;
   resize: none;
+  border: 1px solid;
 }
 
 @media (min-width: 518)and (max-width:599px) {
