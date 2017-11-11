@@ -18217,7 +18217,7 @@ input[type=text] {
   width: 11%;
 }
 
-textarea[type=textarea] {
+.textarea {
   height: 150px;
   width: 185%;
   margin-bottom: 20px;
@@ -18225,14 +18225,14 @@ textarea[type=textarea] {
   border: 2px solid;
 }
 
-@media (min-width: 518)and (max-width:599px) {
-  textarea[type=textarea] {
+@media (min-width: 518)and (max-width: 599px) {
+  .textarea {
     width: 157%;
   }
 }
 
-@media (min-width: 400px)and (max-width 517px) {
-  textarea[type=textarea] {
+@media (min-width: 400px)and (max-width: 517px) {
+  .textarea {
     width: 152%;
   }
 }
