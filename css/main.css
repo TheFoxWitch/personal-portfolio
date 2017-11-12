@@ -18244,6 +18244,12 @@ input[type=text] {
   }
 }
 
+@media (min-width: 414px) {
+  .textarea {
+    width: 118%;
+  }
+}
+
 button, input, select, textarea {
   margin: 0;
 }
