@@ -18232,15 +18232,15 @@ input[type=text] {
   }
 }
 
-@media (min-width: 544px)and (max-width: 599px) {
+@media (min-width: 544px)and (max-width: 544px) {
   .textarea {
-    width: 157%;
+    width: 158%;
   }
 }
 
-@media (min-width: 400px)and (max-width: 543px) {
+@media (min-width: 400px)and (max-width: 500px) {
   .textarea {
-    width: 152%;
+    width: 145%;
   }
 }
 
