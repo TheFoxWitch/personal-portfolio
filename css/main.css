@@ -18220,19 +18220,19 @@ input[type=text] {
   border: 2px solid;
 }
 
-@media (min-width:543px) {
+@media (min-width:543px)and (max-width: 544px) {
   .email {
     bottom: -5%;
   }
 }
 
-@media (min-width:543px) {
+@media (min-width:543px)and (max-width: 544px) {
   .email-text {
     bottom: -5%;
   }
 }
 
-@media (min-width: 544px)and (max-width: 544px) {
+@media (min-width: 543px)and (max-width: 544px) {
   .textarea {
     width: 158%;
   }
@@ -18244,7 +18244,7 @@ input[type=text] {
   }
 }
 
-@media (min-width: 400px) {
+@media (max-width: 400px) {
   .textarea {
     width: 118%;
   }
