@@ -18238,13 +18238,13 @@ input[type=text] {
   }
 }
 
-@media (min-width: 400px)and (max-width: 500px) {
+@media (min-width: 401px)and (max-width: 500px) {
   .textarea {
     width: 145%;
   }
 }
 
-@media (min-width: 414px) {
+@media (min-width: 400px) {
   .textarea {
     width: 118%;
   }
