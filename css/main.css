@@ -18250,6 +18250,12 @@ input[type=text] {
   }
 }
 
+@media (max-width: 150px) {
+  .textarea {
+    width: 100%z%
+  }
+}
+
 button, input, select, textarea {
   margin: 0;
 }
