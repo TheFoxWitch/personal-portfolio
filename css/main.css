@@ -18217,9 +18217,13 @@ input[type=text] {
 
 .textarea {
   height: 150px;
-  width: 185%;
+  width: 100%;
   margin-bottom: 20px;
   resize: none;
+  overflow-y: scroll;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   border: 2px solid;
 }
 
@@ -18235,7 +18239,7 @@ input[type=text] {
   }
 }
 
-@media (min-width: 522px)and (max-width: 544px) {
+/*@media (min-width: 522px)and (max-width: 544px) {
   .textarea {
     width: 158%;
   }
@@ -18257,7 +18261,7 @@ input[type=text] {
   .textarea {
     width: 100%;
   }
-}
+}*/
 
 button, input, select, textarea {
   margin: 0;
