@@ -18209,12 +18209,6 @@ input[type=text] {
   width: 11%;
 }
 
-.boxsizingBorder {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 .textarea {
   height: 150px;
   width: 100%;
