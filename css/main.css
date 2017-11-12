@@ -18235,13 +18235,13 @@ input[type=text] {
   }
 }
 
-@media (min-width: 543px)and (max-width: 544px) {
+@media (min-width: 522px)and (max-width: 544px) {
   .textarea {
     width: 158%;
   }
 }
 
-@media (min-width: 401px)and (max-width: 500px) {
+@media (min-width: 401px)and (max-width: 521px) {
   .textarea {
     width: 145%;
   }
