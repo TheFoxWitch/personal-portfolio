@@ -18249,13 +18249,13 @@ input[type=text] {
 
 @media (max-width: 400px) {
   .textarea {
-    width: 118%;
+    width: 110%;
   }
 }
 
 @media (max-width: 150px) {
   .textarea {
-    width: 100%z%
+    width: 100%;
   }
 }
 
