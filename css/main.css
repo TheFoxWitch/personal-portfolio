@@ -18180,7 +18180,7 @@ a.contacts__item_text--04:hover, a.contacts__item_text--04:active, a.contacts__i
   }
 }
 
-@media (min-width:320px)and (max-width:599px) {
+@media (min-width:470px)and (max-width:599px) {
   .thelynx {
     right: -5%;
   }
