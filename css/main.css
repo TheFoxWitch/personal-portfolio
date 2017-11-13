@@ -18224,14 +18224,11 @@ input[type=text] {
 }
 
 .textarea {
-  display: flex;
-  flex-flow: row;
-  flex-wrap: nowrap;
   height: 150px;
   width: 100%;
   margin-bottom: 20px;
   resize: none;
-  overflow-y: scroll;
+  overflow: auto;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -18275,7 +18272,7 @@ input[type=text] {
 }*/
 
 button, input, select, textarea {
-  margin: 0;
+  margin: 0 auto;
 }
 
 .blurb {
