@@ -18166,6 +18166,7 @@ a.contacts__item_text--04:hover, a.contacts__item_text--04:active, a.contacts__i
   top: 20px;
   margin: 0 auto;
   justify-content: space-between;
+  flex-wrap: nowrap;
 }
 
 .submitbutt {
@@ -18198,27 +18199,38 @@ a.contacts__item_text--04:hover, a.contacts__item_text--04:active, a.contacts__i
   color: #666;
 }
 
+input {
+  max-width: 100%;
+}
+
 input[type=text] {
-  width: 75%;
+  width: 64%;
   height: 25px;
   margin-right: 17px;
   border-bottom: 1px solid;
 }
 
 .name {
-  width: 11%;
+  width: 14%;
 }
 
-.textarea {
+.modal-header .close {
+  padding: 20px;
+}
+
+/*.textarea {
   height: 150px;
-  width: 100%;
   margin-bottom: 20px;
   resize: none;
   overflow: auto;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  border: 2px solid;
+  border: 1px solid;
+}*/
+
+.modal-header .close {
+  padding: 15px;
 }
 
 @media (min-width:543px)and (max-width: 544px) {
@@ -18231,34 +18243,6 @@ input[type=text] {
   .email-text {
     bottom: -5%;
   }
-}
-
-/*@media (min-width: 522px)and (max-width: 544px) {
-  .textarea {
-    width: 158%;
-  }
-}
-
-@media (min-width: 401px)and (max-width: 521px) {
-  .textarea {
-    width: 145%;
-  }
-}
-
-@media (max-width: 400px) {
-  .textarea {
-    width: 110%;
-  }
-}
-
-@media (max-width: 150px) {
-  .textarea {
-    width: 100%;
-  }
-}*/
-
-button, input, select, textarea {
-  margin: 0 auto;
 }
 
 .blurb {
@@ -18284,4 +18268,5 @@ button, input, select, textarea {
   position: relative;
   color: white;
   text-align: center;
+  margin-bottom: 0;
 }
