@@ -18205,7 +18205,6 @@ input {
 
 input[type=text] {
   width: 64%;
-  height: 25px;
   margin-right: 17px;
   border-bottom: 1px solid;
 }
@@ -18216,6 +18215,10 @@ input[type=text] {
 
 .modal-header .close {
   padding: 20px;
+}
+
+.message-title {
+  margin-top: 10px;
 }
 
 /*.textarea {
