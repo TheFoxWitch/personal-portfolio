@@ -18217,6 +18217,10 @@ input[type=text] {
   padding: 20px;
 }
 
+.modal-title {
+  line-height: 2.5;
+}
+
 .fa .fa-times .fa-2x {
   padding-left: 20px;
 }
@@ -18246,9 +18250,10 @@ input[type=text] {
   }
 }
 
-@media (min-width:543px)and (max-width: 544px) {
-  .email-text {
-    bottom: -5%;
+@media (max-width: 544px) {
+  input[name="entry.510628096"] {
+    position: relative;
+    right: -31px;
   }
 }
 
