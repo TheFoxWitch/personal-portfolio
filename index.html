@@ -146,8 +146,6 @@
               <button type="button" class="close fa fa-2x" data-dismiss="modal" aria-hidden="true">&times;</button>
               <h4 class="modal-title" id="myModalLabel1">Send me a message</h4>
               </div>
-            <div class="col-lg-3 center-block">
-              <div class="input-group">
                 <div class="modal-body">
                   <form action="https://docs.google.com/forms/d/e/1FAIpQLSeCeGdjb0lDsWQPb5IMMNMhyi9F5nHsPtwjVU4nPY46gqLaOg/formResponse" method="POST" target="_self" onsubmit="">
                       <label for="entry_510628096">Name:</label>
@@ -162,7 +160,13 @@
                       <label for="entry_1109190810">Message:</label>
                       <br>
                       <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
-                      <textarea class="textarea" type="textarea" name="entry.1109190810" value="" dir="auto" aria-label="Message  " aria-required="true" required title=""></textarea>
+                      <div class="col-lg-3 center-block">
+                        <div class="input-group">
+                          <textarea class="textarea" type="textarea" name="entry.1109190810" value="" dir="auto" aria-label="Message  " aria-required="true" required title="">
+
+                          </textarea>
+                        </div>
+                      </div>
                       <input type="hidden" name="draftResponse" value="[,,&quot;-1516155311994778418&quot;]">
                       <input type="hidden" name="pageHistory" value="0">
                       <input type="hidden" name="fbzx" value="-1516155311994778418">
@@ -174,8 +178,6 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
     <div class="modal fade" id="resume" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
