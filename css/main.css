@@ -18229,16 +18229,15 @@ input[type=text] {
   margin-top: 10px;
 }
 
-/*.textarea {
+.textarea {
   height: 150px;
-  margin-bottom: 20px;
   resize: none;
   overflow: auto;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   border: 1px solid;
-}*/
+}
 
 .modal-header .close {
   padding: 15px;
@@ -18253,7 +18252,7 @@ input[type=text] {
 @media (max-width: 543px) {
   input[name="entry.510628096"] {
     position: relative;
-    right: -10px;
+    right: -13px;
   }
 }
 
