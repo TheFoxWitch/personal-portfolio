@@ -18217,6 +18217,10 @@ input[type=text] {
   padding: 20px;
 }
 
+.fa .fa-times .fa-2x {
+  padding-left: 20px;
+}
+
 .message-title {
   margin-top: 10px;
 }
