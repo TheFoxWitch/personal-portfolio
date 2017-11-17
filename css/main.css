@@ -4834,7 +4834,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:focus, a.list-g
   line-height: 1;
   color: #000;
   text-shadow: 0 1px 0 #fff;
-  opacity: .2
+  opacity: 1;
 }
 
 .close:focus, .close:hover {
