@@ -18229,6 +18229,10 @@ input[type=text] {
   margin-top: 10px;
 }
 
+label [for=entry_1109190810] {
+  width: 100%;
+}
+
 .textarea {
   height: 150px;
   resize: none;
