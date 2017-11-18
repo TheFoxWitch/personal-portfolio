@@ -18234,6 +18234,7 @@ label [for=entry_1109190810] {
 }
 
 .textarea {
+  width: 100%;
   height: 150px;
   resize: none;
   overflow: auto;
